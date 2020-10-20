@@ -18,12 +18,12 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #D6B500;
+  background-color: white;
 }
 
 .topnav a {
   float: right;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -31,9 +31,108 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #D6B500;
-  color: white;
+  background-color: black;
+  color: black;
 }
+
+.topnav a.active {
+  background-color: red;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="contact">Contact Me</a>
+  <a href="education">Education</a>
+  <a href="Skills">Skills</a>
+  <a href="about">About</a>
+</div>
+  
+<head>
+<style>
+h3 {
+  text-align: center;
+  color: White;
+  font-family:"Arial Black", Gadget, sans-serif;
+  }
+p {
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 17px;
+  }
+div {
+  text-align: center;
+  color: White;
+  font-family:"Arial Black", Gadget, sans-serif;
+  }
+ul {
+  color: White;
+  font-family:"Arial Black", Gadget, sans-serif;
+  }
+  
+</style>
+</head>
+<body>
+
+<h3>Welcome to Mena Wadie's Personal Website</h3>
+<p>About</p>
+<div>Hello, My name is Mena Wadie. My family and I immigrated to the US in 2014 from Egypt. <br>
+  I majored in computer science and business management. I’m fond of sports car, movies.<br>
+  My activities include building my own PC, design websites and working out. </div><br>  
+  
+  
+  <p>Skills</p>
+<ul>
+  <li>Python</li>
+  <li>C++</li>
+  <li>Java Script</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Website Design</li>
+  <li>App Development</li>
+  <li>Web Secuirty</li>
+</ul> 
+
+<p>Education</p>  
+<div> New Jersey Institute of Technology <br> 
+      323 Dr Martin Luther King Jr Blvd, Newark, NJ 07102<br> 
+      (973) 596-3000<br> 
+      BS in Information Technology </div><br>  
+  
+<div> New Jersey City University <br> 
+      2039 John F. Kennedy Blvd, Jersey City, NJ 07305 <br> 
+      (201) 200-2000 <br> 
+  AS in Computer Science </div> <br> 
+  
+  
+  <p>Contact Me</p> 
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="First Name"><br>
+  
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Last Name"><br>
+  
+  <label for="Email">Email Address:</label><br>
+  <input type="Email" id="Email" name="Email" value="Email"><br>
+  
+  <label for="Phone Number">Phone Number:</label><br>
+  <input type="Phone Number" id="Phone Number" name="Phone Number" value="(    )"><br>
+  
+  
+  <button class="button button1">Submit</button>
+  <button class="button button1">Cancel</button>
+  <button class="button button1">Save</button>
+
+</body>
+</body>
+</style>
+</html>
+
 
 .topnav a.active {
   background-color: #D6B500;
